@@ -1,0 +1,6 @@
+$selector: 'article';
+$color: #ff0000;
+
+#{$selector} {
+    color: $color;
+}
