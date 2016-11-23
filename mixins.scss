@@ -1,7 +1,11 @@
 $thickness: 10px;
+$color: red;
+$style: dotted;
 
 @mixin border($thickness) {
     border-width: $thickness;
+    border-color: $color;
+    border-style: $style;
 }
 
 img {
