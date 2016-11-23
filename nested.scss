@@ -1,0 +1,11 @@
+$color: red;
+$width: 10px;
+$radius: 5px;
+
+.sassy {
+    border: {
+        color: $color;
+        width: $width;
+        radius: $radius;
+    }
+}
